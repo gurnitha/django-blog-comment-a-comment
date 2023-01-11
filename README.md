@@ -33,3 +33,9 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
         new file:   app/blog/models.py
         new file:   app/blog/tests.py
         new file:   app/blog/views.py
+
+
+#### 01.4 Register the blog app
+
+        modified:   app/blog/apps.py
+        modified:   config/settings.py
