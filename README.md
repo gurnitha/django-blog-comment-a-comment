@@ -65,3 +65,15 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
         modified:   config/settings.py
         new file:   templates/base.html
 
+
+
+## 04. Django urls
+
+
+#### 04.1 Define urls and create posts
+
+        modified:   app/blog/admin.py
+        new file:   app/blog/urls.py
+        modified:   config/settings.py
+        modified:   config/urls.py
+        new file:   upload/images/cat-1.png
