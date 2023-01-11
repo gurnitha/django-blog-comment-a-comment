@@ -39,3 +39,15 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
 
         modified:   app/blog/apps.py
         modified:   config/settings.py
+
+
+
+## 02. Django models
+
+
+#### 02.1 Create Post model and image path
+
+        modified:   README.md
+        new file:   app/blog/migrations/0001_initial.py
+        modified:   app/blog/models.py
+        modified:   config/settings.py
