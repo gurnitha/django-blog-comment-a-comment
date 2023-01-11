@@ -51,3 +51,17 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
         new file:   app/blog/migrations/0001_initial.py
         modified:   app/blog/models.py
         modified:   config/settings.py
+
+
+
+## 03. Django templates and views
+
+
+#### 03.1 Setting up templates and views
+
+        modified:   README.md
+        new file:   app/blog/templates/blog/post.html
+        modified:   app/blog/views.py
+        modified:   config/settings.py
+        new file:   templates/base.html
+
