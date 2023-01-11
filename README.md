@@ -21,3 +21,15 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
         new file:   config/urls.py
         new file:   config/wsgi.py
         new file:   manage.py
+
+
+#### 01.3 Create django app
+
+        modified:   README.md
+        new file:   app/blog/__init__.py
+        new file:   app/blog/admin.py
+        new file:   app/blog/apps.py
+        new file:   app/blog/migrations/__init__.py
+        new file:   app/blog/models.py
+        new file:   app/blog/tests.py
+        new file:   app/blog/views.py
