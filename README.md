@@ -77,3 +77,16 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
         modified:   config/settings.py
         modified:   config/urls.py
         new file:   upload/images/cat-1.png
+
+
+
+## 05. Django Static and Media Files
+
+
+#### 05.1 Configure stati files
+
+        modified:   README.md
+        new file:   app/blog/static/blog/style.css
+        modified:   templates/base.html
+
+        NOTE: css is gitignored
