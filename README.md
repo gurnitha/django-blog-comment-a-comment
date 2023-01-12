@@ -116,3 +116,13 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
         path('post/<slug:slug>',views.post_page,name='post_page')
 
         http://127.0.0.1:8000/post/post1
+
+
+#### 06.2 Building the homepage (basics content)
+
+        modified:   README.md
+        new file:   app/blog/templates/blog/index.html
+        modified:   app/blog/urls.py
+        modified:   app/blog/views.py
+
+        NOTE: Rendering some contens only(not yet complete in this 186 video)
