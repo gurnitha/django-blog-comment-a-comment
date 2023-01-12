@@ -192,3 +192,33 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
         6. Result: It works
 
         NOTE: Every time the browser is refreshed, view_count is added
+
+
+#### 06.5 Allowing users to comment posts - Part 1: Configurations
+
+        modified:   README.md
+        modified:   app/blog/admin.py
+        new file:   app/blog/forms.py
+        new file:   app/blog/migrations/0004_comments.py
+        modified:   app/blog/models.py
+        modified:   app/blog/templates/blog/post.html
+        modified:   app/blog/views.py
+
+        Video:189
+
+        Activities:
+
+        1. In models.py:
+        1.1 Import User from django contrib
+        1.2 Create Comment model, place it under Post model
+        2. Run and applay the migrations
+        3. Register Comment model to admin
+        4. Create a new file: blog/forms.py
+           user Comment model to create form fields
+        5. In post_page view, use the the CommentForm and pass it to  context
+        6. Render data instan from the form to post page
+
+        NOTE:
+
+        1. Comment only added to db
+        2. Comment did not showed up on the post page
