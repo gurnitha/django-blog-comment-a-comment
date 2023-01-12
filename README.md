@@ -243,3 +243,21 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
 
         1. Comment added and rendered successfully
         2. But, when refresh the browser, the same comment added again
+
+
+#### 06.7 Allowing users to comment posts - Part 3: Fixing the sumbit issue on refresh
+
+        modified:   README.md
+        modified:   app/blog/views.py
+        
+        Video:191
+
+        Activities:
+
+        1. in views.py, use HttpResponseRedirect and redirect modules
+        2. test add more comments
+
+        NOTE:
+
+        1. Issue fixed
+        2. No more comment object re-created when refresh the browser
