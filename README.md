@@ -171,3 +171,24 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
             {% endfor %}
         </div>
 
+
+#### 06.4 Counting the views
+
+        modified:   README.md
+        new file:   app/blog/migrations/0003_post_view_count.py
+        modified:   app/blog/models.py
+        modified:   app/blog/templates/blog/post.html
+        modified:   app/blog/views.py
+
+        Video:188
+
+        Activities:
+
+        1. Add view_count field in Post model
+        2. Run and appllay migrations
+        3. Add logic for post view in post_page view
+        4. Load view_count to post page
+        5. Testing: refresh the browser
+        6. Result: It works
+
+        NOTE: Every time the browser is refreshed, view_count is added
