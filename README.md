@@ -249,7 +249,7 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
 
         modified:   README.md
         modified:   app/blog/views.py
-        
+
         Video:191
 
         Activities:
@@ -261,3 +261,24 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
 
         1. Issue fixed
         2. No more comment object re-created when refresh the browser
+
+
+#### 06.8 Allowing users to comment posts - Part 4: Building replies configurations
+
+        modified:   README.md
+        new file:   app/blog/migrations/0005_comments_parent.py
+        modified:   app/blog/models.py
+        modified:   templates/base.html
+
+        Video:192
+
+        Activities:
+
+        1. Add field parent field to Comment model + related_name as replaies
+        2. Run and applay migrations
+        3. Add url.js to static file and load url.js
+
+
+        NOTE:
+
+        1. The replay form works
