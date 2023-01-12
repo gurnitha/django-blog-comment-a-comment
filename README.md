@@ -126,3 +126,48 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
         modified:   app/blog/views.py
 
         NOTE: Rendering some contens only(not yet complete in this 186 video)
+
+
+#### 06.3 Building and Reder Tags
+
+        modified:   README.md
+        modified:   app/blog/admin.py
+        new file:   app/blog/migrations/0002_tag_post_tags.py
+        modified:   app/blog/models.py
+        modified:   app/blog/templates/blog/post.html
+
+        Activities:
+
+        1. Build Tag model
+        2. Add relationship with Post model + related_name
+        3. Run and applay migrations
+        4. Register Tag to admin
+        5. Add some tag in admin
+        6. Open post + select tag/s
+        7. Render tags to post.html
+
+        NOTE: just a basics (not complete the post page yet)
+
+        # IN THE TERMINAL
+
+        F:\_workspace\blog\blog-comment-a-comment (main)
+        (venv3941) λ REM: open shell
+
+        ...
+        >>> from app.blog.models import Post, Tag
+        >>> posts = Post.objects.all()
+        # show first post --> [0]
+        >>> posts[0]
+        <Post: Post object (1)>
+        # show all tags belongs to post1
+        >>> posts[0].tags.all()
+        <QuerySet [<Tag: tag1>, <Tag: tag2>]>
+
+        IN THE POST PAGE
+
+        <div class="blog-tags">
+            {% for tag in post.tags.all %}
+              <div class="tag">{{tag.name}}</div>
+            {% endfor %}
+        </div>
+
