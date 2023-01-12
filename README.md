@@ -303,3 +303,9 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
 
         1. Comment to a comment save the comment to db.
         2. But the comment does not show up in the post page
+
+
+#### 06.10 Allowing users to comment posts - Part 6: Reply to a comment
+
+        modified:   README.md
+        modified:   app/blog/templates/blog/post.html
