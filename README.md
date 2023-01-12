@@ -282,3 +282,24 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
         NOTE:
 
         1. The replay form works
+
+
+#### 06.9 Allowing users to comment posts - Part 5: Allowing users to leave reply
+
+        modified:   README.md
+        modified:   app/blog/templates/blog/post.html
+        modified:   app/blog/views.py
+
+        Video:193
+
+        Activities:
+
+        1. In post page: Configure the replay form commnet
+        2. In Comment views: Add logic
+        3. Reply to a comment
+        4. Check the reply in db
+
+        NOTE:
+
+        1. Comment to a comment save the comment to db.
+        2. But the comment does not show up in the post page
