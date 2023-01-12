@@ -90,3 +90,9 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
         modified:   templates/base.html
 
         NOTE: css is gitignored
+
+
+#### 05.2 Configure media files
+
+        modified:   README.md
+        modified:   config/urls.py
