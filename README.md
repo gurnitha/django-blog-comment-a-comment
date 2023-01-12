@@ -222,3 +222,24 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
 
         1. Comment only added to db
         2. Comment did not showed up on the post page
+
+
+#### 06.6 Allowing users to comment posts - Part 2: Rendering comments
+
+        modified:   README.md
+        modified:   app/blog/templates/blog/post.html
+        modified:   app/blog/views.py
+
+        Video:190
+
+        Activities:
+
+        1. post_page view add comment, and in the context
+        2. render the comments to post page
+        3. test to comment
+
+
+        NOTE:
+
+        1. Comment added and rendered successfully
+        2. But, when refresh the browser, the same comment added again
