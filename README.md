@@ -96,3 +96,23 @@ My Learning link: https://www.udemy.com/course/python-django-masterclass/learn/l
 
         modified:   README.md
         modified:   config/urls.py
+
+
+
+## 06. Rendering Blog Posts
+
+
+#### 06.1 Rendering basics posts content from db
+
+        modified:   README.md
+        modified:   app/blog/templates/blog/post.html
+        new file:   upload/images/post.png
+
+        def post_page(request, slug):
+                post = Post.objects.get(slug=slug)
+                context = {'post':post}
+                return render(request, 'blog/post.html', context)
+
+        path('post/<slug:slug>',views.post_page,name='post_page')
+
+        http://127.0.0.1:8000/post/post1
